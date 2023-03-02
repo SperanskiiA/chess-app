@@ -1,0 +1,16 @@
+.board {
+  width: calc(64px * 8);
+  height: calc(64px * 8);
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+
+  @media (max-width: 600px) {
+    width: calc(48px * 8);
+    height: calc(48px * 8);
+  }
+  @media (max-width: 400px) {
+    height: calc(36px * 8);
+    width: calc(36px * 8);
+  }
+}

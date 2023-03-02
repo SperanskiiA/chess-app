@@ -1,0 +1,46 @@
+.cell {
+  width: 64px;
+  height: 64px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &_black {
+    background-color: #367ff6;
+  }
+  &_white {
+    background-color: #ff7935;
+  }
+  &_selected {
+    opacity: 0.5;
+  }
+
+  > img {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    @media (max-width: 600px) {
+      height: 36px;
+      width: 36px;
+    }
+    @media (max-width: 400px) {
+      width: 27px;
+      height: 27px;
+    }
+  }
+  @media (max-width: 600px) {
+    width: 48px;
+    height: 48px;
+  }
+  @media (max-width: 400px) {
+    height: 36px;
+    width: 36px;
+  }
+}
+.available {
+  background-color: yellow;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  opacity: 0.8;
+}
