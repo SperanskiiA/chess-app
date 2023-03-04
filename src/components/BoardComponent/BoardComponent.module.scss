@@ -14,3 +14,17 @@
     width: calc(36px * 8);
   }
 }
+.title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  padding: 16px;
+
+  b {
+    color: blue;
+    font-size: 1.1em;
+  }
+  @media (max-width: 600px) {
+    font-size: 24px;
+  }
+}

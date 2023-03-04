@@ -14,6 +14,9 @@
   &_selected {
     opacity: 0.5;
   }
+  &_aim {
+    box-shadow: inset -2px -2px 4px black;
+  }
 
   > img {
     width: 48px;
